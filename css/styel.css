@@ -1,0 +1,41 @@
+input {
+  margin: 10px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+div {
+  display: inline-block;
+  margin: 5px;
+  background-color: rgba(163, 173, 151, 0.897);
+  color: white;
+  border-radius : 5px ;
+}
+
+#contener {
+  background-color: white;
+}
+
+#pagebody {
+
+  background-color: #eee;
+  
+text-align: center;
+  
+}
+
+button {
+  margin: 3px;
+  background-color: rgba(19, 29, 28, 0.733); /* Blue background */
+  color: white;
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius: 8px;
+}
+button:hover {
+background-color: RoyalBlue;
+}

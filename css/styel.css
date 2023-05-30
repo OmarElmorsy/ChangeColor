@@ -3,7 +3,8 @@ input {
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  border-bottom-style: groove;
+  border-bottom-style: hidden;
+  
 }
 div {
   display: inline-block;
@@ -29,13 +30,14 @@ button {
   margin: 3px;
   background-color: rgba(19, 29, 28, 0.733); /* Blue background */
   color: white;
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  border: none;
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
   border-radius: 8px;
+  
 }
 button:hover {
 background-color: RoyalBlue;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.4); ;
 }
